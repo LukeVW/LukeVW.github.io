@@ -1,0 +1,21 @@
+{
+  "name": "websocket-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "install": "^0.13.0",
+    "mathjs": "^11.0.1",
+    "npm": "^8.13.2",
+    "serve-handler": "^6.1.3",
+    "sqlite3": "^5.0.8",
+    "ws": "^8.8.0"
+  }
+}

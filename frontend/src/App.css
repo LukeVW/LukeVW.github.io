@@ -1,0 +1,213 @@
+body {
+  text-align: center;
+  background-color: rgb(40,80,125);
+  color: white;
+  min-height: 100vh;
+}
+
+
+
+h2 {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
+
+input,
+textarea {
+  background-color: rgb(15, 15, 15);
+  color: white;
+}
+
+a {
+  cursor: pointer;
+}
+
+header {
+  height: 75px;
+  width: 100%;
+  background-color: rgb(40,40,40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20vh;
+}
+
+.Game {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(40,80,125);
+}
+
+.interface {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.chat {
+  width: 400px;
+  height: 100%;
+  border-left: solid;
+  border-width: 1px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.messages-container {
+  overflow-y: scroll;
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: left;
+  background-color: rgb(40, 40, 40);
+}
+
+.message {
+  width: 100%;
+  word-wrap: break-word;
+  padding-top: 4px;
+  padding-bottom: 8px;
+  border-top: solid;
+  border-color: rgb(100,100,100);
+  border-width: 1px;
+}
+
+.static-area {
+  resize: none;
+  width: 85%;
+  height: 50px;
+}
+.feedback-area {
+  resize: none;
+  width: 82%;
+  height: 115px;
+}
+
+.send-button {
+  border: solid;
+  border-color: rgb(100, 100, 100);
+  border-width: 1px;
+  width: 15%
+}
+
+
+.join-requests {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.user-block {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  padding-bottom: 40px;
+}
+
+.users-online {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid;
+  border-color: white;
+  border-width: 3px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.users-label {
+  padding-right: 10px;
+  padding-left: 6px;
+}
+
+.join-button {
+  background-color: rgb(40,80,125);
+  font-size: 35px;
+  display: flex;
+}
+
+.request {
+  display: flex;
+  align-items: center;
+  padding-top: 17px;
+}
+
+.button-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: calc(15% - 58px);
+  min-height: 62px;
+  background-color: rgb(20, 20, 20);
+}
+
+.menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 15%;
+  height: 60px;
+  width: 60px;
+  background-color: rgb(20, 20, 20);
+  border-color: rgb(200, 200, 200);
+  color: rgb(100, 100, 220);
+}
+
+select {
+  background-color: rgb(20, 20, 20);
+  color: rgb(200, 200, 200);
+}
+
+.modal-container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: fixed;
+  background-color: rgb(35, 35, 35);
+  min-height: 50px;
+  min-width: 50px;
+  padding-bottom: 8px;
+  z-index: 2;
+  margin-bottom: 100px;
+}
+
+.modal-background {
+  position: fixed;
+  background-color: black;
+  opacity: 75%;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-roll-button {
+  margin-top: 14px;
+  background-color: rgb(20, 20, 20);
+  border: solid;
+  border-color: rgb(120, 120, 120);
+}
