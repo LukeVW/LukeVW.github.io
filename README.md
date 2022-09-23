@@ -8,7 +8,7 @@ It allows you to roll digital dice together with friends without having to sign 
 Frontend made with React.
 npm start
 
-Backend is a websocket.
+Backend is a websocket.\n
 node index.js 8080
 
 
